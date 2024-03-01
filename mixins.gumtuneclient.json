@@ -1,0 +1,27 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.7",
+  "package": "hypixelmacros.client.mixin",
+  "refmap": "mixins.hypixelmacros.refmap.json",
+  "verbose": true,
+  "client": [
+    "MixinBlockRendererDispatcher",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiContainer",
+    "MixinGuiEditSign",
+    "MixinMinecraft",
+    "MixinModelBiped",
+    "MixinPlayerControllerMP",
+    "MixinRendererLivingEntity",
+    "accessors.EntityPlayerSPAccessor",
+    "accessors.MinecraftAccessor"
+  ],
+  "mixins": [
+    "MixinChunk",
+    "MixinModList",
+    "MixinNetworkManager",
+    "accessors.RenderManagerAccessor",
+    "blocks.MixinBlockMushroom"
+  ]
+}
